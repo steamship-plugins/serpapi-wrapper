@@ -1,0 +1,33 @@
+{
+  "author": "Steamship",
+  "entrypoint": "api.handler",
+  "handle": "serpapi-wrapper",
+  "description": "Executes Google Searches via SerpAPI and add tags containing the results",
+  "public": true,
+  "type": "plugin",
+  "version": "0.0.1-rc.4",
+  "plugin": {
+    "isTrainable": false,
+    "transport": "jsonOverHttp",
+    "type": "tagger"
+  },
+  "configTemplate": {},
+  "steamshipRegistry": {
+    "tagline": "Google Search Answers",
+    "tagline2": "",
+    "usefulFor": "",
+    "videoUrl": null,
+    "githubUrl": "https://github.com/steamship-plugins/serpapi-wrapper",
+    "demoUrl": null,
+    "blogUrl": null,
+    "jupyterUrl": "",
+    "authorName": "Steamship",
+    "authorEmail": "hello@steamship.com",
+    "authorTwitter": "@GetSteamship",
+    "authorUrl": "https://www.steamship.com/",
+    "tags": [
+      "SerpAPI",
+      "Google Search"
+    ]
+  }
+}
